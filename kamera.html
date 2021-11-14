@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sony A6600</title>
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <!-- Import Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <!-- Import Css -->
+    <link rel="stylesheet" href="./assets/css/style2.css">
+</head>
+<body>
+    <div id="header">
+        <a href="index.html">
+            <img src="./assets/images/kittcha2.png" id="logo"> 
+        </a>
+        <div id="menu">
+        <a href="index.html" class="menu-item">HOME</a>
+        <a href="#" class="menu-item">PRODUCT</a>
+        <a href="#" class="menu-item">CONTACT</a>
+        </div>
+    </div>
+    <div id="main-container">
+        <div id="app">
+            <div class="cart">Keranjang({{ cart.length }})</div>
+            <product-display :premium="premium" @add-to-cart="updateCart"></product-display>
+          </div>
+      
+          <!-- Import App -->
+          <script src="./main.js"></script>
+      
+          <!-- Import Components -->
+          <script src="./components/ProductDisplay.js"></script>
+          <script src="./components/ReviewForm.js"></script>
+          <script src="./components/ReviewList.js"></script>
+      
+          <!-- Mount App -->
+          <script>
+            const mountedApp = app.mount('#app')
+          </script>
+    </div>
+    <div id="footer">
+        <span> &copy; Kittcha Kamera. All rights reserved.</span>
+    </div>
+</body>
+</html>

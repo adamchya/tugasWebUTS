@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+#header{
+    width: 100%;
+    margin-top: 24px;
+    display: inline-block;
+}
+#logo{
+    width: 170px;
+    margin-left: 230px;
+}
+
+
+#menu{
+    float: right;
+    margin-left: 95px;
+    margin-right: 120px;
+    margin-top: 12px;
+}
+
+.menu-item{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.menu-item:hover{
+    opacity: 0.5;
+}
+#title-banner{
+    font-size: 24px;
+    color:white;
+    text-align: left;
+    margin-top: 320px;
+    margin-left: 225px;
+}
+#title-text{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+#cart{
+    font-size: 20px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#title-cart{
+    font-size: 40px;
+    line-height: 1.5;
+    color: #226E93;
+}
+
+#cart-item-container{
+    margin-top: 140px;
+}
+.cart-item{
+    display: inline-block;
+    border-radius: 12px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.cart-img{
+    width: 300px;
+}
+
+.cam-img{
+    width: 240px;
+    height: 160px;
+}
+
+.cart-item-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+
+.cart-item-text{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.button-cart{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px 0 10px 20px;
+    color: white;
+    background-color: #226E93;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.button-cart:hover{
+    opacity: 0.8;
+}
+#all-button{
+    text-align: center;
+    margin-top: 60px;
+}
+#button-all{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 34px;
+    color: #226E93;
+    background-color: white;
+    border: 2px solid #226E93;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#button-all:hover{
+    color: white;
+    background-color: #226E93;
+}
+
+#footer{
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #226E93;
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+}
